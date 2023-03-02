@@ -1,0 +1,81 @@
+@charset "UTF-8";
+.home-image{
+	width:100%;
+	height:83vh;
+	background-image: url("image.jpg");
+	background-position: center;
+	background-size: cover;
+}
+.home-card{
+	width:500px;
+	height:40vh;
+	background: rgba(73,148,183, 0.63);
+	position: absolute;
+	top:30vh;
+	left:10vh;
+	border-radius:30px;
+	font-family: poppins,sans-serif;
+	padding: 6vh 20px
+}
+.home-card h3{
+	font-size: 28px;
+	color: #fff;
+	font-weight: bold;
+	
+}
+body, *{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+.paragraphe{
+	font-size: 18px;
+	color:#fff;
+	margin-top:2vh
+}
+.alloffres{
+	padding:3vh 30px;
+	background-color: #0073b1;
+	color:#fff !important;
+	font-size: 16px;
+	border:none;
+	display:block;
+	margin:auto;
+	font-family: poppins,sans-serif;
+	margin-top:4vh
+}
+.fitre{
+	width:100%;
+	height:83vh;
+	background-color: rgba(0,0,0,0.4);
+	position: absolute;
+}
+
+.alaune h3{
+	text-align: center;
+	color:rgb(73,148,183);
+	margin-top: 2vh;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	gap:20px
+}
+.droit,.gauche{
+	width:150px;
+	height:1vh;
+	background-color: rgb(73,148,183)
+}
+a{
+	text-decoration: none;
+	font-size: 16px;
+	color:#000
+}
+.ajout-cv {
+	padding:1.5vh 20px;
+	background-color: rgb(73,148,183);
+	color:#fff
+	
+}
+.toutesoffres{
+	color:#fff !important
+}
